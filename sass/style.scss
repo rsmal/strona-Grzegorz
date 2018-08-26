@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #111216;
+    background-color: #0A1214;
 }
 
 a {
@@ -66,10 +66,10 @@ ul{
     }
     &__list{
         display: flex;
-        padding: 10px 0;
+        padding: 30px 0;
     }
     &__logo{
-        padding-left: 20px;
+        padding: 20px;
     }
     &__item{
         padding: 0 10px;
@@ -84,6 +84,7 @@ ul{
             width: 100%;
             height: 2px;
             bottom: 0;
+            top: 25px;
             left: 0;
             background-color: red;
             visibility: hidden;
@@ -137,8 +138,8 @@ ul{
             &::after{
                 content: "";
                 position: absolute;
-                border-top: solid 1px #777;
-                border-left: solid 1px #777;
+                border-top: solid 1px #303133;
+                border-left: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 50%;
@@ -151,8 +152,8 @@ ul{
             &::before{
                 content: "";
                 position: absolute;
-                border-bottom: solid 1px #777;
-                border-right: solid 1px #777;
+                border-bottom: solid 1px #303133;
+                border-right: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 58%;
@@ -168,7 +169,7 @@ ul{
         }
         &__card{
             position: relative;
-            border: 1px solid #777;
+            border: 1px solid #303133;
             padding: 50px 100px;
             margin-bottom: 100px;
         }
@@ -187,7 +188,7 @@ ul{
   
     .square1{
         position: absolute;
-        border: solid 1px #777;
+        border: solid 1px #303133;
         width: 100px;
         height: 70px;
         top: 95%;
@@ -197,7 +198,7 @@ ul{
 
     .square2{
         position: absolute;
-        border: solid 1px #777;
+        border: solid 1px #303133;
         width: 100px;
         height: 70px;
         top: -5%;
@@ -207,7 +208,7 @@ ul{
 
     .title__line1{
         position: absolute;
-        border-bottom: solid 1px #777;
+        border-bottom: solid 1px #303133;
         width: 120px;
         left: 38.5%;
         top: 95px;
@@ -215,7 +216,7 @@ ul{
 
     .title__line2{
         position: absolute;
-        border-bottom: solid 1px #777;
+        border-bottom: solid 1px #303133;
         width: 120px;
         left: 57%;
         top: 105px;
@@ -248,8 +249,8 @@ ul{
             &::after{
                 content: "";
                 position: absolute;
-                border-top: solid 1px #777;
-                border-left: solid 1px #777;
+                border-top: solid 1px #303133;
+                border-left: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 50%;
@@ -262,8 +263,8 @@ ul{
             &::before{
                 content: "";
                 position: absolute;
-                border-bottom: solid 1px #777;
-                border-right: solid 1px #777;
+                border-bottom: solid 1px #303133;
+                border-right: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 58%;
@@ -289,7 +290,7 @@ ul{
             padding: 50px;
             margin: 0 50px;
             margin-bottom: 150px;
-            border: solid 1px #777
+            border: solid 1px #303133;
         }
         &__subtitle{
             text-transform: uppercase;
@@ -322,7 +323,7 @@ ul{
             position: absolute;
             left: 50%;
             top: 93%;
-            border: solid 1px #777;
+            border: solid 1px #303133;
             padding: 20px 50px;
             background-color: black;
             transform:translateX(-50%);
@@ -337,8 +338,8 @@ ul{
 
     .img__square{
                 position: absolute;
-                border-top: solid 1px #777;
-                border-left: solid 1px #777;
+                border-top: solid 1px #303133;
+                border-left: solid 1px #303133;
                 width: 130px;
                 height: 50px;
                 left: 60%;
@@ -348,7 +349,7 @@ ul{
 
     .img__line{
         position: absolute;
-        border-bottom: solid 1px #777;
+        border-bottom: solid 1px #303133;
         width: 80px;
         left: 25%;
         top: -50px;
@@ -357,7 +358,7 @@ ul{
 
     .line1{
         position: absolute;
-        border-bottom: solid 1px #777;
+        border-bottom: solid 1px #303133;
         width: 120px;
         left: 38.5%;
         top: 95px;
@@ -366,7 +367,7 @@ ul{
 
     .line2{
         position: absolute;
-        border-bottom: solid 1px #777;
+        border-bottom: solid 1px #303133;
         width: 120px;
         left: 57%;
         top: 100px;
@@ -391,8 +392,8 @@ ul{
             &::after{
                 content: "";
                 position: absolute;
-                border-top: solid 1px #777;
-                border-left: solid 1px #777;
+                border-top: solid 1px #303133;
+                border-left: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 50%;
@@ -405,8 +406,8 @@ ul{
             &::before{
                 content: "";
                 position: absolute;
-                border-bottom: solid 1px #777;
-                border-right: solid 1px #777;
+                border-bottom: solid 1px #303133;
+                border-right: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 58%;
@@ -415,7 +416,7 @@ ul{
             }
         }
         &__slider{
-            border: 1px solid #777;
+            border: 1px solid #303133;
             position: relative;
         }
         &__text{
@@ -433,7 +434,7 @@ ul{
 
     .slider__square{
         position: absolute;
-        border: solid 1px #777;
+        border: solid 1px #303133;
         width: 90px;
         height: 70px;
         top: -10%;
@@ -471,8 +472,8 @@ ul{
             &::after{
                 content: "";
                 position: absolute;
-                border-top: solid 1px #777;
-                border-left: solid 1px #777;
+                border-top: solid 1px #303133;
+                border-left: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 50%;
@@ -485,8 +486,8 @@ ul{
             &::before{
                 content: "";
                 position: absolute;
-                border-bottom: solid 1px #777;
-                border-right: solid 1px #777;
+                border-bottom: solid 1px #303133;
+                border-right: solid 1px #303133;
                 width: 150px;
                 height: 60px;
                 left: 58%;
@@ -506,14 +507,14 @@ ul{
         &__left{
             position: relative;
             margin-right: 200px;
-            border: solid 1px #777;
+            border: solid 1px #303133;
             padding: 100px 200px;
             background-color: black;
         }
 
         &__map {
             position: relative;
-            border: solid 1px #777;
+            border: solid 1px #303133;
             padding: 100px;
             background-color: black;
         }
@@ -528,7 +529,7 @@ ul{
 
     .map__square{
         position: absolute;
-        border: solid 1px #777;
+        border: solid 1px #303133;
         width: 90px;
         height: 70px;
         top: -5%;
@@ -538,7 +539,7 @@ ul{
 
     .left__square{
         position: absolute;
-        border: solid 1px #777;
+        border: solid 1px #303133;
         width: 90px;
         height: 70px;
         top: 95%;
