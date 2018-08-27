@@ -12,9 +12,9 @@
 </head>
 <body>
     
-    <section class="intro">
+    <section class="intro" >
             <div class="intro__underline">
-                <div class="intro__topbar container__intro">
+                <div class="intro__topbar container__intro" id="home">
                         <div class="intro__contact">
                             
                                 <i class=" fas fa-phone"></i>
@@ -24,7 +24,7 @@
                                 kontakt@grzegorz.com
                          </div>
 
-                         <div class="intro__socialicons">
+                         <div class="intro__socialicons" >
                                 <a href="#"><i class=" introicon fab fa-facebook-f"></i></a>
                                 <a href="#"><i class=" introicon fab fa-instagram"></i></a>
                                 <a href="#"><i class=" introicon fab fa-twitter"></i></a>
@@ -34,15 +34,17 @@
     </section>
 
 
-    <section class="nav">
-        <nav class="navbar">
-                <div class="navbar__wrapper container__intro">
-                    <img class="navbar__logo" src="images/logo.png" alt="">
-                    <ul class="navbar__list">
-                        <li class="navbar__item"><a class="navbar__link" href="#"> home</a></li>
-                        <li class="navbar__item"><a class="navbar__link" href="#"> o mnie</a></li>
-                        <li class="navbar__item"><a class="navbar__link" href="#"> uslugi</a></li>
-                        <li class="navbar__item"><a class="navbar__link" href="#"> kontakt</a></li>
+    <section class="nav" >
+        <nav class="navbar " id="fixed">
+                <div class="navbar__wrapper  container__intro ">
+                    <div class="navbar__list">
+                   <a href="#home"> <img class="navbar__logo" src="images/logo.png" alt=""></a>
+                    </div>
+                    <ul class="navbar__list " >
+                        <li class="navbar__item"><a class="navbar__link" href="#home"> home</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="#aboutme"> o mnie</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="#services"> uslugi</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="#contact"> kontakt</a></li>
                     </ul>
                 </div>
         </nav>
@@ -53,70 +55,73 @@
     </section>
 
 
-    <section class="aboutme">
+    <div class="arrow navbar__list " >
+            <a class=" arrow"  href="#home"> <img  id="arrow" class="arrow__icon"  src="images/arrow_black.png" alt="arrow"> </a>
+    </div>
+
+    <section class="aboutme" id="aboutme">
+            <h1 class="aboutme__title">o mnie</h1>
         <div class="aboutme__sudo">
-                <div class="title__line1">s</div>
-                <div class="title__line2">s</div>
-                <div class="title__dot"></div>
-           <div class="title__holder"> <h1 class="aboutme__title">o mnie</h1></div>
-                
-            
+            <img class="decorator" src="images/decorator.png" alt="">
         </div>
-            
+         
+
 
         <div class="aboutme__wrapper container__aboutme">
             <div class="aboutme__card">
                     <div class="square1"></div>
-                <p class="aboutme__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p class="aboutme__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p class="aboutme__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="aboutme__text" >
+                        <p class="aboutme__description">Kierunek lekarsko-dentystyczny ukończył na Wydziale Lekarskim Collegium Medicum Uniwersytetu Jagiellońskiego w Krakowie. Staż podyplomowy odbył w Zespole Przychodni Specjalistycznych w Tarnowie oraz w Uniwersyteckim Centrum Stomatologii i Medycyny Specjalistycznej w Poznaniu. </p>
+                        <p class="aboutme__description">Stawiając na ciągły rozwój, jako lekarz dentysta, ukończył już kilka kursów z zakresu protetyki oraz implantologii. W gabinecie Pan doktor zajmuje się kompleksowym planowaniem leczenia pacjentów, wykonuje zabiegi chirurgiczne oraz implantologiczne.</p>
+                </div>
             </div>
 
             <div class="aboutme__card">
                     <div class="square2"></div>
-                <img src="images/grzesiek.png" alt="">
+                <img class="aboutme__img" src="images/grzesiek.png" alt="">
             </div>
 
         </div>
     </section>
 
 
-    <section class="services">
-            <div class="services__sudo">
-                    <div class="line1">a</div>
-                    <div class="line2">a</div>
-                    <div class="title__dot"></div>
-                <h2 class="services__title">usługi</h2> 
-            </div>
+    <section class="services" id="services">
+            <h2 class="services__title">Usługi</h2>
+        <div class="aboutme__sudo">
+            <img class="decorator" src="images/decorator.png" alt="">
+        </div>
 
 
             <div class="services__wrapper">
                 <div class="services__card">
                     <img class="services__img" src="images/box1.png" alt="">
+                    <div class="services__deco"> <img  src="images/services__deco.png" alt=""></div>
                     <div class="img__line"></div>
                     <div class="img__square"></div>
                     <h3 class="services__subtitle">implantologia</h2>
-                    <p class="services__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
-                    <a class="services__link" href="">zobacz wiecej</a>
+                    <p class="services__description">  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+                    <a class="services__link" href="">cennik</a>
                 </div>
 
                 <div class="services__card">
                         <img class="services__img" src="images/box2.png" alt="">
+                        <div class="services__deco" > <img  src="images/services__deco.png" alt=""></div>
                         <div class="img__line"></div>
                         <div class="img__square"></div>
                         <h3 class="services__subtitle">chirurgia</h2>
-                        <p class="services__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
-                        <a class="services__link" href="">zobacz wiecej</a>  
+                        <p class="services__description">text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+                        <a class="services__link" href="">cennik</a>  
                 </div>
 
 
                 <div class="services__card">
                             <img class="services__img" src="images/box1.png" alt="">
+                            <div class="services__deco"> <img  src="images/services__deco.png" alt=""></div>
                             <div class="img__line"></div>
                             <div class="img__square"></div>
                             <h3 class="services__subtitle">protetyka</h2>
-                            <p class="services__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
-                            <a class="services__link" href="">zobacz wiecej</a>        
+                            <p class="services__description">  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+                            <a class="services__link" href="">cennik</a>        
                 </div>
 
             </div>
@@ -126,11 +131,9 @@
 
 
     <section class="gallery">
-            <div class="gallery__sudo">
-                    <div class="line1">a</div>
-                    <div class="line2">a</div>
-                    <div class="title__dot"></div>
-                <h2 class="gallery__title">Galeria</h2> 
+            <h2 class="gallery__title">Galeria</h2>
+            <div class="aboutme__sudo">
+                <img class="decorator" src="images/decorator.png" alt="">
             </div>
 
             <div class="gallery__slider container__slider">
@@ -203,33 +206,44 @@
 
 
 
-<section class="contact">
-        <div class="contact__sudo">
-                <div class="line1">a</div>
-                <div class="line2">a</div>
-                <div class="title__dot"></div>
-            <h2 class="contact__title">Kontakt</h2> 
-        </div>
+<section class="contact" id="contact">
+        <h2 class="contact__title">Kontakt</h2>
+            <div class="aboutme__sudo">
+                <img class="decorator" src="images/decorator.png" alt="">
+            </div>
 
         <div class="contact__wrapper">
 
             <div class="contact__left">
                     <div class="left__square"></div>
-                    <img class="contact__logo" src="images/logo.png" alt="">
+                    <img class="contact__logo" src="images/kontakt logo.png" alt="">
 
                     <p class="contact__info"> +48 600 500 000 </p>
                     <p class="contact__info"> kontakt@grzegorz.pl </p>
                     <p class="contact__info"> ul.H.Kołłątaja 1/1, Tarnów </p>
+
+                    <div class="contact__icons">
+                            <img src="images/telefon.png" alt="">
+                            <img src="images/mail.png" alt="">
+                            <img src="images/lokalizacja.png" alt="">
+                        </div>
             </div>
+
+            
+
+            
+
 
             <div class="contact__map">
                     <div class="map__square"></div>
-                <img src="https://via.placeholder.com/700x500" alt="">
+                <img src="https://via.placeholder.com/500x300" alt="">
 
             </div>
 
 
         </div>
+
+        
 
 
 </section>
@@ -266,7 +280,7 @@ labels: false,
 // arrow defaults
 arrowWidth: 32,
 arrowHeight: 76,
-arrowMargin: 50,
+arrowMargin: 30,
 arrowBackgroundColor: '',
 arrowBackgroundImageRight: '',
 arrowBackgroundImageLeft: '',
@@ -282,6 +296,60 @@ cursor: 'pointer'
 
 });
 
+    </script>
+
+
+<script>
+        window.onscroll = function() {myFunction()};
+        let navbar = document.getElementById("fixed");
+        let sticky = navbar.offsetTop;
+       
+        function myFunction() {
+            let windowWidth = $(window).width();
+        if(windowWidth > 320 &&  windowWidth < 1300){
+            
+        }else if (window.pageYOffset >= sticky) {
+            navbar.classList.add("fixed")
+            
+          } else {
+            navbar.classList.remove("fixed");
+            
+          }
+        }
+        </script>
+
+<script>
+    
+        $( '.navbar__list a ' ).on( 'click', function(e){
+            
+            let href = $(this).attr( 'href' );
+            $( 'html, body' ).animate({
+                  scrollTop: $( href ).offset().top - 300
+            }, '300' );
+            e.preventDefault();
+          });
+        </script>
+
+
+<script>
+  
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+            if (scroll >= 1000) {
+                $("#arrow").addClass("arrow__active");
+            } else {
+                $("#arrow").removeClass("arrow__active");
+            }
+        });
+           
+        </script>
+
+<script> 
+        $(".arrow__icon") .mouseover(function () {
+           this.src= "images/arrow_red.png"
+        }).mouseout(function () {
+            this.src= "images/arrow_black.png"
+        });
     </script>
 
 </body>
